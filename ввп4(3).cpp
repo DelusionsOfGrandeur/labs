@@ -6,9 +6,9 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	float a, b, s;
-	printf("Введите числа\n");
+	printf("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Р°\n");
 	scanf("%f %f", &a, &b);
 	s = (a + b) / 2;
-	printf("Среднее арифметическое равно" "%f", s);
+	printf("РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ СЂР°РІРЅРѕ" "%f", s);
 	return 0;
 }
