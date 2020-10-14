@@ -6,7 +6,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	int a, buf, res;
-	printf("введите значение a\n");
+	printf("РІРІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ a\n");
 	scanf("%d", &a);
 	buf = pow(a, 2);
 	res = pow(a, 2)*pow(a, 2)*pow(a, 2)*buf;
