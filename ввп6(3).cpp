@@ -6,11 +6,11 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	int a, b, c, buf;
-	printf("введите значение а\n");
+	printf("РІРІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ Г \n");
 	scanf("%d", &a);
-	printf("введите значение b\n");
+	printf("РІРІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ b\n");
 	scanf("%d", &b);
-	printf("введите значение c\n");
+	printf("РІРІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ c\n");
 	scanf("%d", &c);
 	buf = a;
 	a = c;
