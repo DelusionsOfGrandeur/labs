@@ -6,9 +6,9 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	int a, b, buf;
-	printf("введите значение а\n");
+	printf("РІРІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ Р°\n");
 	scanf("%d", &a);
-	printf("введите значение b\n");
+	printf("РІРІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ b\n");
 	scanf("%d", &b);
 	buf = a;
 	a = b;
