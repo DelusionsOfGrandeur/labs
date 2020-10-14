@@ -6,7 +6,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	int x, y;
-	printf("введите значение x\n");
+	printf("РІРІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ x\n");
 	scanf("%d", &x);
 	y = 3*(sqrt(x)*sqrt(x)*sqrt(x)) - 6*sqrt(x) - 7;
 	printf("y = " "%d\n", y);
