@@ -6,10 +6,10 @@ int main()
 {
  setlocale(LC_ALL, "Russian");
  float a, grad, pi;
- printf("введите значение угла а в радианах, 0 < a < 360\n");
+ printf("РІРІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ СѓРіР»Р° Р° РІ СЂР°РґРёР°РЅР°С…, 0 < a < 2*pi\n");
  scanf("%f", &a);
  pi = 3.14;
  grad = 180 * a / pi;
- printf("угол а в градусах равен %f\n", grad);
+ printf("СѓРіРѕР» Р° РІ РіСЂР°РґСѓСЃР°С… СЂР°РІРµРЅ %f\n", grad);
 return 0;
 }
