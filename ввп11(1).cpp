@@ -6,7 +6,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	int a, b;
-	printf("введите целые значения для а и b\n");
+	printf("РІРІРµРґРёС‚Рµ С†РµР»С‹Рµ Р·РЅР°С‡РµРЅРёСЏ РґР»СЏ Р° Рё b\n");
 	scanf("%d %d", &a, &b);
 	if (a != b)
 	{
