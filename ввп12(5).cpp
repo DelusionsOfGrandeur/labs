@@ -6,63 +6,63 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	int year;
-	printf("введите год\n");
+	printf("РІРІРµРґРёС‚Рµ РіРѕРґ\n");
 	scanf("%d", &year);
 	switch((year%10))
 	{
 		case 1:
-			printf("зелёный год ");
+			printf("Р·РµР»С‘РЅС‹Р№ РіРѕРґ ");
 			break;
 		case 2:
-			printf("красный год ");
+			printf("РєСЂР°СЃРЅС‹Р№ РіРѕРґ ");
 			break;
 		case 3:
-			printf("жёлтый год ");
+			printf("Р¶С‘Р»С‚С‹Р№ РіРѕРґ ");
 			break;
 		case 4:
-			printf("белый год ");
+			printf("Р±РµР»С‹Р№ РіРѕРґ ");
 			break;
 		case 5:
-			printf("чёрный год ");
+			printf("С‡С‘СЂРЅС‹Р№ РіРѕРґ ");
 			break;				
 	}
 	switch(((year+8)%12))
 	{
 		case 1:
-			printf("крысы");
+			printf("РєСЂС‹СЃС‹");
 			break;
 		case 2:
-			printf("коровы");
+			printf("РєРѕСЂРѕРІС‹");
 			break;
 		case 3:
-			printf("тигра");
+			printf("С‚РёРіСЂР°");
 			break;
 		case 4:
-			printf("зайца");
+			printf("Р·Р°Р№С†Р°");
 			break;
 		case 5:
-			printf("дракона");
+			printf("РґСЂР°РєРѕРЅР°");
 			break;
 		case 6:
-			printf("змеи");
+			printf("Р·РјРµРё");
 			break;
 		case 7:
-			printf("лошади");
+			printf("Р»РѕС€Р°РґРё");
 			break;
 		case 8:
-			printf("овцы");
+			printf("РѕРІС†С‹");
 			break;
 		case 9:
-			printf("обезьяны");
+			printf("РѕР±РµР·СЊСЏРЅС‹");
 			break;
 		case 10:
-			printf("курицы");
+			printf("РєСѓСЂРёС†С‹");
 			break;
 		case 11:
-			printf("собаки");
+			printf("СЃРѕР±Р°РєРё");
 			break;
 		case 12:
-			printf("свиньи");
+			printf("СЃРІРёРЅСЊРё");
 			break;											
 	}
 	return 0;
