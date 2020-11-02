@@ -6,36 +6,36 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	int x;
-	printf("ââåäèòå öåëîå ÷èñëî â äèàïîçîíå 100-999\n");
+	printf("Ã¢Ã¢ÄºÃ¤ÄÅˆÄº Ã¶ÄºÃ«Ã®Äº Ã·ÄÅ„Ã«Ã® Ã¢ Ã¤ÄÅ•ÄÃ®Ã§Ã®Ã­Äº 100-999\n");
 	scanf("%d", &x);
 	switch (x/100)
 	{
 		case 1:
-			printf("ñòî ");
+			printf("ÑÑ‚Ð¾ ");
 			break;
 		case 2:
-			printf("äâåñòè ");
+			printf("Ð´Ð²ÐµÑÑ‚Ð¸ ");
 			break;
 		case 3:
-			printf("òðèñòà ");
+			printf("Ñ‚Ñ€Ð¸ÑÑ‚Ð° ");
 			break;
 		case 4:
-			printf("÷åòûðåñòà ");
+			printf("Ñ‡ÐµÑ‚Ñ‹Ñ€ÐµÑÑ‚Ð° ");
 			break;
 		case 5:
-			printf("ïÿòüñîò ");
+			printf("Ð¿ÑÑ‚ÑŒÑÐ¾Ñ‚ ");
 			break;
 		case 6:
-			printf("øåñòüñîò ");
+			printf("ÑˆÐµÑÑ‚ÑŒÑÐ¾Ñ‚ ");
 			break;
 		case 7:
-			printf("ñåìüñîò ");
+			printf("ÑÐµÐ¼ÑŒÑÐ¾Ñ‚ ");
 			break;
 		case 8:
-			printf("âîñåìüñîò ");
+			printf("Ð²Ð¾ÑÐµÐ¼ÑŒÑÐ¾Ñ‚ ");
 			break;
 		case 9:
-			printf("äåâÿòüñîò");
+			printf("Ð´ÐµÐ²Ñ‚ÑŒÑÐ¾Ñ‚ ");
 			break;
 	}
 	if (((x%100) > 9) & ((x%100) < 20))
@@ -43,34 +43,34 @@ int main()
 		switch((x%100))
 		{
 			case 10:
-				printf("äåñÿòü ");
+				printf("Ð´ÐµÑÑÑ‚ÑŒ ");
 				break;
 			case 11:
-				printf("îäèííàäöàòü ");
+				printf("Ð¾Ð´Ð¸Ð½Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ");
 				break;
 			case 12:
-				printf("äâåíàäöàòü ");
+				printf("Ð´Ð²ÐµÐ½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ");
 				break;
 			case 13:
-				printf("òðèíàäöàòü ");
+				printf("Ñ‚Ñ€Ð¸Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ");
 				break;
 			case 14:
-				printf("÷åòûðíàäöàòü ");
+				printf("Ñ‡ÐµÑ‚Ñ‹Ñ€Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ");
 				break;
 			case 15:
-				printf("ïÿòíàäöàòü ");
+				printf("Ð¿ÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ");
 				break;
 			case 16:
-				printf("øåñòíàäöàòü ");
+				printf("ÑˆÐµÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ");
 				break;
 			case 17:
-				printf("ñåìíàäöàòü ");
+				printf("ÑÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ");
 				break;
 			case 18:
-				printf("âîñåìíàäöàòü ");
+				printf("Ð²Ð¾ÑÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ");
 				break;
 			case 19:
-				printf("äåâÿòíàäöàòü ");
+				printf("Ð´ÐµÐ²ÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ");
 				break;
 		}	
 	}
@@ -79,58 +79,58 @@ int main()
 		switch((x%100)/10)
 		{
 			case 2:
-				printf("äâàäöàòü ");
+				printf("Ð´Ð²Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ");
 				break;
 			case 3:
-				printf("òðèäöàòü ");
+				printf("Ñ‚Ñ€Ð¸Ð´Ñ†Ð°Ñ‚ÑŒ ");
 				break;
 			case 4:
-				printf("ñîðîê ");
+				printf("ÑÐ¾Ñ€Ð¾Ðº ");
 				break;
 			case 5:
-				printf("ïÿòüäåñÿò ");
+				printf("Ð¿ÑÑ‚ÑŒÐ´ÐµÑÑÑ‚ ");
 				break;
 			case 6:
-				printf("øåñòüäåñÿò ");
+				printf("ÑˆÐµÑÑ‚ÑŒÐ´ÐµÑÑÑ‚ ");
 				break;
 			case 7:
-				printf("ñåìüäåñÿò ");
+				printf("ÑÐµÐ¼ÑŒÐ´ÐµÑÑÑ‚ ");
 				break;
 			case 8:
-				printf("âîñåìüäåñÿò ");
+				printf("Ð²Ð¾ÑÐµÐ¼ÑŒÐ´ÐµÑÑÑ‚ ");
 				break;
 			case 9:
-				printf("äåâÿíîñòî ");
+				printf("Ð´ÐµÐ²ÑÐ½Ð¾ÑÑ‚Ð¾ ");
 				break;
 		}
 		switch((x%10))
 		{
 			case 1:
-				printf("îäèí");
+				printf("Ð¾Ð´Ð¸Ð½");
 				break;
 			case 2:
-				printf("äâà");
+				printf("Ð´Ð²Ð°");
 				break;
 			case 3:
-				printf("òðè");
+				printf("Ñ‚Ñ€Ð¸");
 				break;
 			case 4:
-				printf("÷åòûðå");
+				printf("Ñ‡ÐµÑ‚Ñ‹Ñ€Ðµ");
 				break;
 			case 5:
-				printf("ïÿòü");
+				printf("Ð¿ÑÑ‚ÑŒ");
 				break;
 			case 6:
-				printf("øåñòü");
+				printf("ÑˆÐµÑÑ‚ÑŒ");
 				break;
 			case 7:
-				printf("ñåìü");
+				printf("ÑÐµÐ¼ÑŒ");
 				break;
 			case 8:
-				printf("âîñåìü");
+				printf("Ð²Ð¾ÑÐµÐ¼ÑŒ");
 				break;
 			case 9:
-				printf("äåâÿòü");
+				printf("Ð´ÐµÐ²ÑÑ‚ÑŒ");
 				break;
 		}
 	}
