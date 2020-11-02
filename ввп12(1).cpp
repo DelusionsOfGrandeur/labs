@@ -6,141 +6,141 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	int month, day;
-	printf("введите номер дня(1-31) и номер месяца(1-12)\n");
+	printf("РІРІРµРґРёС‚Рµ РЅРѕРјРµСЂ РґРЅСЏ(1-31) Рё РЅРѕРјРµСЂ РјРµСЃСЏС†Р°(1-12)\n");
 	scanf("%d %d", &day, &month);
 	switch (day)
 	{
 		case 1:
-			printf("первое ");
+			printf("РїРµСЂРІРѕРµ ");
 			break;
 		case 2:
-			printf("второе ");
+			printf("РІС‚РѕСЂРѕРµ ");
 			break;
 		case 3:
-			printf("третье ");
+			printf("С‚СЂРµС‚СЊРµ ");
 			break;
 		case 4:
-			printf("четвёртое ");
+			printf("С‡РµС‚РІС‘СЂС‚РѕРµ ");
 			break;
 		case 5:
-			printf("пятое ");
+			printf("РїСЏС‚РѕРµ ");
 			break;
 		case 6:
-			printf("шестое ");
+			printf("С€РµСЃС‚РѕРµ ");
 			break;
 		case 7:
-			printf("седьмое ");
+			printf("СЃРµРґСЊРјРѕРµ ");
 			break;
 		case 8:
-			printf("восьмое ");
+			printf("РІРѕСЃСЊРјРѕРµ ");
 			break;
 		case 9:
-			printf("девятое ");
+			printf("РґРµРІСЏС‚РѕРµ ");
 			break;
 		case 10:
-			printf("десятое ");
+			printf("РґРµСЃСЏС‚РѕРµ ");
 			break;
 		case 11:
-			printf("одиннадцатое ");
+			printf("РѕРґРёРЅРЅР°РґС†Р°С‚РѕРµ ");
 			break;
 		case 12:
-			printf("двенадцатое ");
+			printf("РґРІРµРЅР°РґС†Р°С‚РѕРµ ");
 			break;
 		case 13:
-			printf("тринадцатое ");
+			printf("С‚СЂРёРЅР°РґС†Р°С‚РѕРµ ");
 			break;
 		case 14:
-			printf("четырнадцатое ");
+			printf("С‡РµС‚С‹СЂРЅР°РґС†Р°С‚РѕРµ ");
 			break;
 		case 15:
-			printf("пятнадцатое ");
+			printf("РїСЏС‚РЅР°РґС†Р°С‚РѕРµ ");
 			break;
 		case 16:
-			printf("шестнадцатое ");
+			printf("С€РµСЃС‚РЅР°РґС†Р°С‚РѕРµ ");
 			break;
 		case 17:
-			printf("семнадцатое ");
+			printf("СЃРµРјРЅР°РґС†Р°С‚РѕРµ ");
 			break;
 		case 18:
-			printf("восемнадцатое ");
+			printf("РІРѕСЃРµРјРЅР°РґС†Р°С‚РѕРµ ");
 			break;
 		case 19:
-			printf("девятнадцатое ");
+			printf("РґРµРІСЏС‚РЅР°РґС†Р°С‚РѕРµ ");
 			break;
 		case 20:
-			printf("двадцатое ");
+			printf("РґРІР°РґС†Р°С‚РѕРµ ");
 			break;
 		case 21:
-			printf("двацдать первое ");
+			printf("РґРІР°РґС†Р°С‚СЊ РїРµСЂРІРѕРµ ");
 			break;
 		case 22:
-			printf("двацдать второе ");
+			printf("РґРІР°РґС†Р°С‚СЊ РІС‚РѕСЂРѕРµ ");
 			break;
 		case 23:
-			printf("двадцать третье ");
+			printf("РґРІР°РґС†Р°С‚СЊ С‚СЂРµС‚СЊРµ ");
 			break;
 		case 24:
-			printf("двадцать четвёртое ");
+			printf("РґРІР°РґС†Р°С‚СЊ С‡РµС‚РІС‘СЂС‚РѕРµ ");
 			break;
 		case 25:
-			printf("двадцать пятое ");
+			printf("РґРІР°РґС†Р°С‚СЊ РїСЏС‚РѕРµ ");
 			break;
 		case 26:
-			printf("двадцать шестое ");
+			printf("РґРІР°РґС†Р°С‚СЊ С€РµСЃС‚РѕРµ ");
 			break;
 		case 27:
-			printf("двадцать седьмое ");
+			printf("РґРІР°РґС†Р°С‚СЊ СЃРµРґСЊРјРѕРµ ");
 			break;
 		case 28:
-			printf("двадцать восьмое ");
+			printf("РґРІР°РґС†Р°С‚СЊ РІРѕСЃСЊРјРѕРµ ");
 			break;
 		case 29:
-			printf("двадцать девятое ");
+			printf("РґРІР°РґС†Р°С‚СЊ РґРµРІСЏС‚РѕРµ ");
 			break;
 		case 30:
-			printf("тридцатое ");
+			printf("С‚СЂРёРґС†Р°С‚РѕРµ ");
 			break;
 		case 31:
-			printf("тридцать первое ");
+			printf("С‚СЂРёРґС†Р°С‚СЊ РїРµСЂРІРѕРµ ");
 			break;																															
 	}
 	switch(month)
 	{
 		case 1:
-			printf("января");
+			printf("СЏРЅРІР°СЂСЏ");
 			break;
 		case 2:
-			printf("февраля");
+			printf("С„РµРІСЂР°Р»СЏ");
 			break;
 		case 3:
-			printf("марта");
+			printf("РјР°СЂС‚Р°");
 			break;
 		case 4:
-			printf("апреля");
+			printf("Р°РїСЂРµР»СЏ");
 			break;
 		case 5:
-			printf("мая");
+			printf("РјР°СЏ");
 			break;
 		case 6:
-			printf("июня");
+			printf("РёСЋРЅСЏ");
 			break;
 		case 7:
-			printf("июля");
+			printf("РёСЋР»СЏ");
 			break;
 		case 8:
-			printf("августа");
+			printf("Р°РІРіСѓСЃС‚Р°");
 			break;
 		case 9:
-			printf("сентября");
+			printf("СЃРµРЅС‚СЏР±СЂСЏ");
 			break;
 		case 10:
-			printf("октября");
+			printf("РѕРєС‚СЏР±СЂСЏ");
 			break;
 		case 11:
-			printf("ноября");
+			printf("РЅРѕСЏР±СЂСЏ");
 			break;
 		case 12:
-			printf("декабря");
+			printf("РґРµРєР°Р±СЂСЏ");
 			break;											
 	}
 	return 0;
