@@ -17,8 +17,7 @@ int main()
 	ac = sqrt( (x1 - x3)*(x1 - x3) + (y1-y3)*(y1 - y3) );
 	p = ab + bc + ac;
 	pp = p / 2;
-	h = (2*sqrt(pp * (pp - ab)*(pp - bc)*(pp - ac))) / ac;
-	s = (ac * h) / 2;
+	s = sqrt(pp*(pp - ab)*(pp - bc)*(pp - ac));
 	printf("периметр треугольника равен " "%d\n", p);
 	printf("площадь треугольника равна " "%d\n", s);
 	return 0; 
